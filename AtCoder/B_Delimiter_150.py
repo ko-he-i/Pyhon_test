@@ -1,10 +1,9 @@
-a = [0] * 100
+a = []
+while True:
+    ca = int(input())
+    a.append(ca)
+    if ca == 0:
+        break
 
-for i in range(100):
-    b = int(input())
-    a[i] = b
-
-for i in a:
-    if a != 0:
-        print(a)
-        
+for i in range(len(a) -1, -1, -1):
+    print(a[i])
