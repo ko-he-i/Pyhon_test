@@ -1,0 +1,7 @@
+n = int(input())
+text = '1'
+
+for i in range(n):
+    text += '01'
+
+print(text)
