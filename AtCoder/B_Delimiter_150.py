@@ -7,3 +7,4 @@ for i in range(100):
 for i in a:
     if a != 0:
         print(a)
+        
